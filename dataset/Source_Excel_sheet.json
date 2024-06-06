@@ -1,83 +1,82 @@
 {
-    "name": "Source_Excel_sheet",
-    "properties": {
-        "linkedServiceName": {
-            "referenceName": "Vishwas_AzureStorageAccount_link",
-            "type": "LinkedServiceReference"
-        },
-        "annotations": [],
-        "type": "Excel",
-        "typeProperties": {
-            "sheetName": "IPBills",
-            "location": {
-                "type": "AzureBlobStorageLocation",
-                "fileName": "ip bills.xls Dec_a.xlsx",
-                "folderPath": "Excel-sheets",
-                "container": "vishwas-assignment-source-data"
-            },
-            "firstRowAsHeader": true
-        },
-        "schema": [
-            {
-                "name": "#SlNo",
-                "type": "String"
-            },
-            {
-                "name": "Bill Type",
-                "type": "String"
-            },
-            {
-                "name": "IPOP",
-                "type": "String"
-            },
-            {
-                "name": "Bill No",
-                "type": "String"
-            },
-            {
-                "name": "Bill Date",
-                "type": "String"
-            },
-            {
-                "name": "Bill Amount",
-                "type": "String"
-            },
-            {
-                "name": "Discount",
-                "type": "String"
-            },
-            {
-                "name": "Net Amount",
-                "type": "String"
-            },
-            {
-                "name": "Paid Amount",
-                "type": "String"
-            },
-            {
-                "name": "Balance Amount",
-                "type": "String"
-            },
-            {
-                "name": "Last Pay Mode",
-                "type": "String"
-            },
-            {
-                "name": "User",
-                "type": "String"
-            },
-            {
-                "name": "MRN",
-                "type": "String"
-            },
-            {
-                "name": "AdmID",
-                "type": "String"
-            },
-            {
-                "name": "Category",
-                "type": "String"
-            }
-        ]
-    }
+	"name": "Source_Excel_sheet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Vishwas_AzureStorageAccount_link",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "IPBills",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "Excel-sheets",
+				"container": "vishwas-assignment-source-data"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "#SlNo",
+				"type": "String"
+			},
+			{
+				"name": "Bill Type",
+				"type": "String"
+			},
+			{
+				"name": "IPOP",
+				"type": "String"
+			},
+			{
+				"name": "Bill No",
+				"type": "String"
+			},
+			{
+				"name": "Bill Date",
+				"type": "String"
+			},
+			{
+				"name": "Bill Amount",
+				"type": "String"
+			},
+			{
+				"name": "Discount",
+				"type": "String"
+			},
+			{
+				"name": "Net Amount",
+				"type": "String"
+			},
+			{
+				"name": "Paid Amount",
+				"type": "String"
+			},
+			{
+				"name": "Balance Amount",
+				"type": "String"
+			},
+			{
+				"name": "Last Pay Mode",
+				"type": "String"
+			},
+			{
+				"name": "User",
+				"type": "String"
+			},
+			{
+				"name": "MRN",
+				"type": "String"
+			},
+			{
+				"name": "AdmID",
+				"type": "String"
+			},
+			{
+				"name": "Category",
+				"type": "String"
+			}
+		]
+	}
 }
