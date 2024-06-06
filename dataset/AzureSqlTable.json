@@ -1,0 +1,88 @@
+{
+    "name": "AzureSqlTable",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureSqlDatabase1",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "Bill Type",
+                "type": "varchar"
+            },
+            {
+                "name": "IPOP",
+                "type": "varchar"
+            },
+            {
+                "name": "Bill No",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Bill Amount",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Discount",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Net Amount",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Paid Amount",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Balance Amount",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Last Pay Mode",
+                "type": "varchar"
+            },
+            {
+                "name": "User",
+                "type": "varchar"
+            },
+            {
+                "name": "MRN",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "AdmID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Category",
+                "type": "varchar"
+            },
+            {
+                "name": "Bill Date",
+                "type": "smalldatetime",
+                "precision": 16,
+                "scale": 0
+            },
+            {
+                "name": "#SlNo",
+                "type": "int",
+                "precision": 10
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "vishwas_ipbills"
+        }
+    }
+}

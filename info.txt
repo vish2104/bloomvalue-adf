@@ -1,0 +1,6 @@
+selected resource name:		Vishwas_assignment_pipeline
+selected resource type:		pipeline
+factory name:			bv-adf-assessmentshared-eastus-001
+factory location:		eastus
+subscription id:		5b56a95d-2362-47b8-9093-ae60547cfd71
+time of download (UTC):		Thu, 06 Jun 2024 15:07:46 GMT

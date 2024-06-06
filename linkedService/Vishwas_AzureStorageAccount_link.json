@@ -1,0 +1,11 @@
+{
+    "name": "Vishwas_AzureStorageAccount_link",
+    "properties": {
+        "annotations": [],
+        "type": "AzureBlobStorage",
+        "typeProperties": {
+            "serviceEndpoint": "https://bvstassessmentshareddata.blob.core.windows.net/",
+            "accountKind": "StorageV2"
+        }
+    }
+}

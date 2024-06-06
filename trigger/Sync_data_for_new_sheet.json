@@ -1,0 +1,24 @@
+{
+    "name": "Sync_data_for_new_sheet",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "Vishwas_assignment_pipeline",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "BlobEventsTrigger",
+        "typeProperties": {
+            "blobPathBeginsWith": "/vishwas-assignment-source-data/blobs/Excel-sheets/",
+            "ignoreEmptyBlobs": true,
+            "scope": "/subscriptions/5b56a95d-2362-47b8-9093-ae60547cfd71/resourceGroups/bv-ubvoa-rg-sharedresources-eastus-001/providers/Microsoft.Storage/storageAccounts/bvstassessmentshareddata",
+            "events": [
+                "Microsoft.Storage.BlobCreated"
+            ]
+        }
+    }
+}
